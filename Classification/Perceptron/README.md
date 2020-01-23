@@ -34,6 +34,6 @@ This process is repeated over and over again till the threshold is reached. The 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Chat%7By%7D%3D%5Cbegin%7Bcases%7D%201%26%20%5Ctext%7B%20if%20%7D%20y%3E0%20%5C%5C%200%26%20%5Ctext%7B%20if%20%7D%20y%5Cleq%200%20%5Cend%7Bcases%7D)
 
 **RETURN**: 
->>*y_hat*: test prediction with shape similar to y_train.
-*W*: Weight matrix
-*b*: Baise
+>>*y_hat*: test prediction with shape similar to y_train.  
+*W*: Weight matrix  
+*b*: Baise  
