@@ -1,18 +1,18 @@
 # K-NEAREST NEIGHBOURS (KNN)
 
 **SIGNATURE**: 
->KNN(x_train,y_train,x_test,k,*arg)
+>*KNN(x_train,y_train,x_test,k,*arg)**
 
 **DOCSTRING**:
 
 Perform KNN with the given input training data and predict ( x_test data matrix) result for classification.
 
 **INPUT**:
->x_train= Given the training data matrix in ndarray
-y_train= Given the training label array in ndarray
-x_test= Given the test data matrix in ndarray
-k= 'k' value.
-*args= 1) **'cityblock'** : Performs cityblock distance. 2) '**minkowsky**': Perfrom Minkowsky distance. 3) '**hamming**': Perform Hamming distance.
+>*x_train*= Given the training data matrix in ndarray  
+*y_train*= Given the training label array in ndarray  
+*x_test*= Given the test data matrix in ndarray  
+*k*= 'k' value.  
+**args*= 1) **'cityblock'** : Performs cityblock distance.   2) '**minkowsky**': Perfrom Minkowsky distance.   3) '**hamming**': Perform Hamming distance.  
 NOTE: If nothing is provided DFAULT Euclidean distance will be performed.
 
 **PROCESS**:
@@ -30,4 +30,4 @@ NOTE: If nothing is provided DFAULT Euclidean distance will be performed.
 **Step 2**: Selecting the label with most common one in K neighbours.
 
 **RETURN**: 
->y_test: test prediction with shape similar to y_train.
+>*y_test*: test prediction with shape similar to y_train.
