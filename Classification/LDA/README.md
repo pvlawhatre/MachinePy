@@ -4,6 +4,7 @@
 >LDAClassifier(x_train,y_train,x_test)
 
 **DOCSTRING**:
+
 Performs LDA for classification to a given data matrix x and predict ( x_test data matrix) result for classification.
 **INPUT**:
 >x_train= Given the training data matrix in ndarray
