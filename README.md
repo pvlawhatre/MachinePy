@@ -82,5 +82,4 @@ License
 
 MIT
 
-## Source
-
+[K-Nearest Neighbors]: <https://github.com/pvlawhatre/MachinePy/tree/master/Classification/KNN>
