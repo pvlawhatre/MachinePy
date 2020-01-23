@@ -84,15 +84,7 @@ License
 ----
 
 MIT
-[K-Means]:<>  
-[(K-means++)]:<>  
-[K-Median]:<>  
-[(K-Median++)]:<>  
-[Heirarchical]:<>  
-[Mean-Shift]:<>  
-[Fuzzy C-Mean]:<>  
-[Gaussian Mixture Models]:<>  
-[Spectral Clustering]:<>  
+
 [Linear Regreession]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Linear%20Regression%20L1>  
 [Linear Regresson L2 regularised]: <https://github.com/pvlawhatre/MachinePy/tree/master/Regression/LInear%20Regression%20L2>  
 [Linear Regression L1 Regularised]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Linear%20Regression%20L1>  
@@ -104,10 +96,7 @@ MIT
 [Nadaraya Watson Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Nadaraya-Watson%20Regression>  
 [Local Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Local%20Regression>  
 [KNN Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/KNN%20Regression>  
-[Perceptron/ADALINE Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Perceptron_ADALINE%20Regression>  
-[Chebyshev-FLNN]:<>  
-[Legendre-FLNN]:<>  
-[Laguerre-FLNN]:<>  
+[Perceptron/ADALINE Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Perceptron_ADALINE%20Regression>   
 [Radial Basis Function Neural Net]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/RBF%20Neural%20Nets>  
 [K-Nearest Neighbors]: <https://github.com/pvlawhatre/MachinePy/tree/master/Classification/KNN>  
 [Logistic Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/Classification/Logistic%20Regression>  
@@ -140,3 +129,15 @@ MIT
 [SSDR-M]:<>  
 [SSDR-CM & SSDR-CMU]:<>  
 [SSDR-Manifold]:<>  
+[K-Means]:<>  
+[(K-means++)]:<>  
+[K-Median]:<>  
+[(K-Median++)]:<>  
+[Heirarchical]:<>  
+[Mean-Shift]:<>  
+[Fuzzy C-Mean]:<>  
+[Gaussian Mixture Models]:<>  
+[Spectral Clustering]:<>  
+[Chebyshev-FLNN]:<>  
+[Legendre-FLNN]:<>  
+[Laguerre-FLNN]:<>  
