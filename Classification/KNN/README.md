@@ -14,7 +14,6 @@ k= 'k' value.
 NOTE: If nothing is provided DFAULT Euclidean distance will be performed.
 
 **PROCESS**:
-
 **Step 1**: Calculating the distances of each point from each 'k' centres.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?D%3D%5Csum_%7Bi%5Cepsilon%20n%7D%5Cleft%20%7Cu_%7Bi%7D-v_%7Bi%7D%20%5Cright%20%7C%2C%5C%3B%20%28Cityblock%29)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?D%3D%5Csum_%7Bi%5Cepsilon%20n%7D%5Cleft%20%28%5Cleft%20%7Cu_%7Bi%7D-v_%7Bi%7D%20%5Cright%20%7C%5E%7B2%7D%20%5Cright%20%29%5E%7B1/2%7D%2C%5C%3B%20%28Minkowsky%29)
