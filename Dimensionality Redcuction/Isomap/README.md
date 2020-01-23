@@ -3,14 +3,15 @@
 **SIGNATURE**: 
 >isomap(X,n_k,k)
 
-**DOCSTRING**:
+**DOCSTRING**:  
 ISOMAP-Isometric Feature Maping, for dimensionality reduction also preserving the geodesic distances.
-**INPUT**:
->X: Data matrix of dimension (n×d)
-n_k: K value for KNN
-k: Desired dimension for the given data matrix
 
-**FUNCTIONS USED IN THE CODE**:
+**INPUT**:  
+>X: Data matrix of dimension (n×d)  
+n_k: K value for KNN  
+k: Desired dimension for the given data matrix  
+
+**FUNCTIONS USED IN THE CODE**:  
 1) _nonisolated_G(n_k)_: To create a graph network of geodesic distances of the manifold.
       * _centering_mat(num)_: Input is an int data type number.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?a2%3D%5Cbegin%7Bbmatrix%7D%201%26%200%26%200%26%20%5Ccdots%26%200%26%20%5C%5C%200%26%201%26%200%26%20%5Ccdots%26%200%26%20%5C%5C%200%26%200%26%201%26%20%5Ccdots%26%200%26%20%5C%5C%20%5Cvdots%26%20%5Cvdots%26%20%5Cvdots%26%20%5Cddots%26%20%5Cvdots%26%20%5C%5C%200%26%200%26%200%26%20%5Ccdots%26%201%26%20%5Cend%7Bbmatrix%7D_%7B%28n%5Ctimes%20n%29%7D)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?a2%3D%5Cfrac%7B1%7D%7Bn%7D%5Cbegin%7Bbmatrix%7D%201%26%201%26%201%26%20%5Ccdots%26%201%26%20%5C%5C%201%26%201%26%201%26%20%5Ccdots%26%201%26%20%5C%5C%201%26%201%26%201%26%20%5Ccdots%26%201%26%20%5C%5C%20%5Cvdots%26%20%5Cvdots%26%20%5Cvdots%26%20%5Cddots%26%20%5Cvdots%26%20%5C%5C%201%26%201%26%201%26%20%5Ccdots%26%201%26%20%5C%5C%20%5Cend%7Bbmatrix%7D_%7B%28n%5Ctimes%20n%29%7D)
