@@ -19,7 +19,7 @@ Perform SSDR manifold to the given input training data and reduced into desired 
 **PROCESS**:  
 **Step 1**: Labelled cost function which is the distance between the points to one another.  
 **Step 2**: Unlabelled cost function.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?C%3DC_%7Bl%7D&plus;%5Cgamma%20exp%5Cleft%20%28%20-%5Cfrac%7B%28x_%7Bi%7D-x_%7Bj%7D%29%5E%7B2%7D%7D%7B%5Csigma_%7Bi%7D%20%5Csigma_%7Bj%7D%7D%20%5Cright%20%29)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?C%3DC_%7Bl%7D&plus;%5Cgamma%20exp%5Cleft%20%28%20-%5Cfrac%7B%28x_%7Bi%7D-x_%7Bj%7D%29%5E%7B2%7D%7D%7B%5Csigma_%7Bi%7D%20%5Csigma_%7Bj%7D%7D%20%5Cright%20%29)  
 **Step 3**: Calculating the Laplacian matrix and EVD for ![](http://latex.codecogs.com/gif.latex?T%3DX%5E%7BT%7DLX). Top K eigen vectors are taken as projection matrix.  
 **Step 4**: Transformation by taking the dot product of X and the projection matrix.   
 
