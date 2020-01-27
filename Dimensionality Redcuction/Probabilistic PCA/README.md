@@ -9,7 +9,7 @@ Performs probabilistic PCA over the given data matrix and return the gaussian di
 **INPUT**:  
 >*x*= Given the training data matrix in ndarray  
 *k*= Desired dimension for the given data matrix.  
-*Sigma*: σ parameters for Cholesky decomposition. 
+*sigma*: σ parameters for Cholesky decomposition. 
 
 **PROCESS**:  
 **Step 1**: Mean and co-variance matrix calculation.  
