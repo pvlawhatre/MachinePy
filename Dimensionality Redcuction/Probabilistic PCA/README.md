@@ -21,6 +21,7 @@ Performs probabilistic PCA over the given data matrix and return the gaussian di
 **Step 4**: Predicted mean of the distribution is as given as,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Cmu_%7Bnew%7D%3D%28%28x-%5Cmu_%7Bx%7D%29%5Cbullet%20W%29%5Cbullet%20D)   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Csigma%3D%5Cfrac%7BL%7D%7B%5Csigma_%7Binput%7D%5E%7B2%7D%7D)
+
 **RETURN**:   
 >*mean*:  Mean of the distribution from which the input point has come in the K reduced dimension.  
 *cov*: Covariance of the distribution from which the input point has come in the K reduced dimension.  
