@@ -78,7 +78,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 127.0.0.1:8000
 ```
 ## Contributor
-Pranay Lawhatre and Prashant Lawhatre
+Prashant Lawhatre and Pranay Lawhatre
 
 License
 ----
