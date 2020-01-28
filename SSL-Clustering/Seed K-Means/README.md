@@ -13,8 +13,8 @@ Perform seed K-means with the given input training data and predict ( x_test dat
 
 **PROCESS**:  
 **Step 1**: Centre initialisation to the mean of every cluster.  
-**Step 2**: Points assignment. Calculating the distance of every unlabelled data points to the center of clusters. 
-**Step 3**: Output of unlabelled data points will be the shortest distance points for a particular cluster. 
+**Step 2**: Points assignment. Calculating the distance of every unlabelled data points to the center of clusters.  
+**Step 3**: Output of unlabelled data points will be the shortest distance points for a particular cluster.  
 **Step 4**: New centers are assigned after calculating the mean because of the newly addded data points. Repeat untill convergence.  
 
 **RETURN**:   
