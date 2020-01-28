@@ -1,4 +1,4 @@
-# SSL- SEED K-MEANS
+# SSL- COP K-MEANS
 
 **SIGNATURE**:   
 >_cop_kmean(X,K,must_lnk,cannot_lnk)_    
