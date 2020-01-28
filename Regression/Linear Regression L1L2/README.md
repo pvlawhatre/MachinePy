@@ -7,7 +7,7 @@
 Performs linear regression with L1L2 regulariser with the given input training data and predict ( x_test data matrix) result.
 
 **INPUT**:  
-*>*fun= The function resembling close to the data given as string  
+>*fun*= The function resembling close to the data given as string  
 *arg_x*= Coefficient matrix in ndarray containing each element as string  
 *arg_c*= Variable matrix given in ndarray containing each element as string  
 *x_train*= Given the training data matrix in ndarray  
