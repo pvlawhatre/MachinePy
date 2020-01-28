@@ -10,8 +10,8 @@ Perform mean-shift with the given input training data and predict (y) label for 
 >*x*= Given the training data matrix in ndarray  
 
 **FUNCTION INSIDE THE CODE**:  
-1) _gauss(x)_ : Gauss function as follows, 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?f%28x%29%3De%5E%7B-%5Cfrac%7B%5Cleft%20%7C%20x%20%5Cright%20%7C%5E%7B2%7D%7D%7B2%7D%7D)  
+1) _gauss(x)_ : Gauss function as follows,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?f%28x%29%3De%5E%7B-%5Cfrac%7B%5Cleft%20%7C%20x%20%5Cright%20%7C%5E%7B2%7D%7D%7B2%7D%7D)    
 RETURN: A Gaussian function.   
 
 2) _genC(x)_: Generates each points with added jitter (Gaussian noise with meann 0.5 and standard deviation 1).  
