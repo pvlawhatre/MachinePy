@@ -19,7 +19,7 @@ RETURN: *c*, ndarray of shape (k,dim)
 **PROCESS**:  
 **Step 1**: Centre of Gaussians by Kmean++ (*kpp()*)  
 **Step 2**: Hidden layer activation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?S%3Dexp%5Cleft%20%28%20-%5Cfrac%7B%28xtrain-C_%7Bi%7D%29%5E%7B2%7D%7D%7B2%7D%20%5Cright%20%29) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?S%3Dexp%5Cleft%20%28%20-%5Cfrac%7B%28xtrain-C_%7Bi%7D%29%5E%7B2%7D%7D%7B2%7D%20%5Cright%20%29)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here, *Ci* indicates that each centres is substracted from one instance of x_train value.  
 
 **Step 3**: Closed form solution  
