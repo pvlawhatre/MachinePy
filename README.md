@@ -16,7 +16,7 @@ Currently, the release contain several models for the above stated functions. Th
 * **Semi-Supervised Clustering**: [Constrained K-means], [Seed K-means] and [COP K-means].
 * **Semi-Supervised Regression**:[Co-Training Regression].
 * **Semi-Supervised Classification**:[Pseudo Labelling], [Cluster & Label], [Self Training] and [Co-Training].
-* **Semi-Supervised Dimensionality Reduction**:[SSDR-M], [SSDR-CM & SSDR-CMU] and [SSDR-Manifold].
+* **Semi-Supervised Dimensionality Reduction**:[SSDR-M, SSDR-CM & SSDR-CMU] and [SSDR-Manifold].
 
 ### Installation
 
@@ -83,7 +83,7 @@ Prashant Lawhatre and Pranay Lawhatre
 License
 ----
 
-MIT
+BSD 3-Clause License
 
 [Linear Regreession]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Linear%20Regression%20L1>  
 [Linear Regresson L2 regularised]: <https://github.com/pvlawhatre/MachinePy/tree/master/Regression/LInear%20Regression%20L2>  
@@ -117,27 +117,26 @@ MIT
 [Kernel PCA]:<https://github.com/pvlawhatre/MachinePy/tree/master/Dimensionality%20Redcuction/Kernel%20PCA>  
 [Kernel LDA]:<https://github.com/pvlawhatre/MachinePy/tree/master/Dimensionality%20Redcuction/Kernel%20LDA>  
 [Isomap]:<https://github.com/pvlawhatre/MachinePy/tree/master/Dimensionality%20Redcuction/Isomap>  
-[Discriminant Neighborhood Embedding (DNE)]:<>  
-[Constrained K-means]:<>  
-[Seed K-means]:<>  
-[COP K-means]:<>  
-[Co-Training Regression]:<>  
-[Pseudo Labelling]:<>  
-[Cluster & Label]:<>  
-[Self Training]:<>  
-[Co-Training]:<>  
-[SSDR-M]:<>  
-[SSDR-CM & SSDR-CMU]:<>  
-[SSDR-Manifold]:<>  
-[K-Means]:<>  
-[(K-means++)]:<>  
-[K-Median]:<>  
-[(K-Median++)]:<>  
-[Heirarchical]:<>  
-[Mean-Shift]:<>  
-[Fuzzy C-Mean]:<>  
-[Gaussian Mixture Models]:<>  
-[Spectral Clustering]:<>  
-[Chebyshev-FLNN]:<>  
-[Legendre-FLNN]:<>  
-[Laguerre-FLNN]:<>  
+[Discriminant Neighborhood Embedding (DNE)]:<https://github.com/pvlawhatre/MachinePy/tree/master/Dimensionality%20Redcuction/Discriminant%20Neighborhood%20Embedding>  
+[Constrained K-means]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Clustering/Constrained%20K-Means>  
+[Seed K-means]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Clustering/Seed%20K-Means>  
+[COP K-means]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Clustering/COP%20K-Means>  
+[Co-Training Regression]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Regression/Co-Training%20Regression/Co-Training%20Regression>  
+[Pseudo Labelling]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL_Classification/Pseudo%20Labelling>  
+[Cluster & Label]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL_Classification/Cluster%20and%20Label>  
+[Self Training]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL_Classification/Self-Training>  
+[Co-Training]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL_Classification/Co-Training>  
+[SSDR-M, SSDR-CM & SSDR-CMU]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Dimensionality%20Reduction/SSDR%20(M%2CCM%2CCMU)>  
+[SSDR-Manifold]:<https://github.com/pvlawhatre/MachinePy/tree/master/SSL-Dimensionality%20Reduction/Manifold>  
+[K-Means]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/K-Means>  
+[(K-means++)]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/K-Means%2B%2B>  
+[K-Median]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/K-Median>  
+[(K-Median++)]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/K-Median%2B%2B>  
+[Heirarchical]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/Heirarchical%20Clustering>  
+[Mean-Shift]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/Mean-Shift>  
+[Fuzzy C-Mean]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/Fuzzy%20C-Mean>  
+[Gaussian Mixture Models]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/Gaussian%20Mixture%20Model>  
+[Spectral Clustering]:<https://github.com/pvlawhatre/MachinePy/tree/master/Clustering/Spectral%20Clustering>  
+[Chebyshev-FLNN]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Chebyshev-FLNN>  
+[Legendre-FLNN]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Legendre-FLNN>  
+[Laguerre-FLNN]:<https://github.com/pvlawhatre/MachinePy/tree/master/Regression/Laguerre-FLNN>  
