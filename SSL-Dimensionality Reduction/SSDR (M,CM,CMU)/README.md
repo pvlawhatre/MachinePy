@@ -9,7 +9,7 @@ Perform SSDR with must link, cannot link and using both with the given input tra
 **INPUT**:  
 >*X*= Given the training data matrix in ndarray  
 *K*= Desired dimension to be acheived.  
-_**kwargs_= 1) '_method_'='M', for using must link only, 2) '*method*'='CM', for using cannot link and must link, 3) 'beta'=10, (DEFAULT) for must link method, 4) 'alpha', for CMU mehtod.   
+_**kwargs_= 1) '_**method**_'='**M**', for using must link only, 2) '**_method_**'='**CM**', for using cannot link and must link, 3) '**_beta_**'=10, (DEFAULT) for must link method, 4) '**_alpha_**', for CMU mehtod.   
 *ml*= Data points that are to be together.  
 *cl*= Data points that cannot be together.  
 
