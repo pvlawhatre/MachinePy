@@ -3,7 +3,7 @@
 **SIGNATURE**: 
 >_linear_ridge_reg(fun,arg_x,arg_c,x_train,y_train,x_test,lam)_
 
-**DOCSTRING**:
+**DOCSTRING**:  
 Performs linear regression with L2 regulariser with the given input training data and and predict ( x_test data matrix) result.
 
 **INPUT**:  
