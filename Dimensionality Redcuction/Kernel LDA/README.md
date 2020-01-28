@@ -1,7 +1,7 @@
 # KERNEL- LDA
 
 **SIGNATURE**: 
->*kernel_LDA(X,Y,k,*args,**kwargs)*
+>_kernel_LDA(X,Y,k,*args,**kwargs)_
 
 **DOCSTRING**:
 Performs kernel LDA into the given data matrix.
