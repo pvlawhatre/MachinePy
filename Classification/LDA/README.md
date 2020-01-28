@@ -1,16 +1,16 @@
 # LINEAR DISCRIMINANT ANALYSIS (LDA)
 
 **SIGNATURE**: 
->LDAClassifier(x_train,y_train,x_test)
+>_LDAClassifier(x_train,y_train,x_test)_
 
 **DOCSTRING**:
 
 Performs LDA for classification to a given data matrix x and predict ( x_test data matrix) result for classification.
 
 **INPUT**:
->x_train= Given the training data matrix in ndarray
-y_train= Given the training label array in ndarray
-x_test= Given the test data matrix in ndarray
+>_x_train_= Given the training data matrix in ndarray
+_y_train_= Given the training label array in ndarray
+_x_test_= Given the test data matrix in ndarray
 
 **FUNCTIONS INSIDE THE CODE**:
 
@@ -36,5 +36,5 @@ RETURN: *c*, a ndarray of dimension ( No. of variables, No. of variables)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classification labels are given by the armax of *y* along each column.
 
 **RETURN**: 
->y: Probability matrix with dimension (labels, No. of test points)
-y_lbl: Classification labels for the given test input.
+>_y_: Probability matrix with dimension (labels, No. of test points)
+_y_lbl_: Classification labels for the given test input.
