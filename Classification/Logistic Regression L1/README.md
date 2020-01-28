@@ -7,15 +7,15 @@
 Perform logistic regression with L1 regulariser for binary classification with the given input training data and predict ( x_test data matrix) result for classification.
 
 **INPUT**:
->*fun*= A function from which the data point are assumed to be taken.
-*arg_x*= a ndarray of variables name in the function
-*arg_c*=a ndarray of coefficients name in the function.
-*x_train*= Given the training data matrix in ndarray
-*y_train*= Given the training label array in ndarray
-*x_test*= Given the test data matrix in ndarray
-*eta*= learning rate
-*lam*=L1 regulariser
-*min_itr*= Minimum number of iterations
+>*fun*= A function from which the data point are assumed to be taken.  
+*arg_x*= a ndarray of variables name in the function.  
+*arg_c*=a ndarray of coefficients name in the function.  
+*x_train*= Given the training data matrix in ndarray  
+*y_train*= Given the training label array in ndarray  
+*x_test*= Given the test data matrix in ndarray  
+*eta*= learning rate  
+*lam*=L1 regulariser  
+*min_itr*= Minimum number of iterations  
 
 **FUNCTIONS INSIDE THE CODE**:
 1) *trns_x (xt,fun,arg_x,arg_c)*: Calculate and return the coefficient matrix for the system of ewuations for variable as in *arg_c*.
@@ -35,9 +35,8 @@ RETURN: Normalised C.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Cwidehat%7By%7D%3D%5Csigma%28xtrain%5Cbullet%20C%29)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?L%3D-ylog%28%5Cwidehat%7By%7D%29-%281-y%29log%281-%5Cwidehat%7By%7D%29&plus;%5Clambda%5Cleft%20%5C%7C%20w%20%5Cright%20%5C%7C)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?w%3Dx%5Cleft%20%28wx&plus;%28y-%5Cwidehat%7By%7D%29%20%5Cright%20%29)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;applying soft thresholding,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;applying soft thresholding,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?w%3DS%28%5Crho%2C%5Clambda%29w)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?S%28%5Crho%2C%5Clambda%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7B%5Crho&plus;%5Clambda%7D%7B%5Cleft%20%5C%7C%20x%20%5Cright%20%5C%7C%7D%20%26%20%2C%5Crho%3C-%5Clambda%5C%5C%20%5Cfrac%7B%5Crho-%5Clambda%7D%7B%5Cleft%20%5C%7C%20x%20%5Cright%20%5C%7C%7D%26%2C%20%5Crho%3E%5Clambda%20%5Cend%7Bmatrix%7D%5Cright)  
 
 **Step 5**: Prediction using *p2c()* module.  
 
