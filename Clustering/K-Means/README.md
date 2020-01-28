@@ -13,7 +13,7 @@ Perform K-mean with the given input training data without K-mean++ algorithm and
 **FUNCTION INSIDE THE CODE**:  
 1) _cenini(x,K)_ : To initialise the center points. *min* and *max* acts as the range for the selection of data points from each column. A random 100 points are selected out of which *K* unique values are selected and sampled in C=(K×DIMENSIONS).  
 RETURN: Center point matrix,C.   
-2) _2)Silhouette(X,Y,K)_: To check the efficacy of the produced result. We calculate the a,b and s values.  
+2) _Silhouette(X,Y,K)_: To check the efficacy of the produced result. We calculate the a,b and s values.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a= distance of a point from all the same cluster points excluding itself.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b= mean intra cluster distance.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?s%3D%5Cbegin%7Bcases%7D%200%26%20%5Ctext%7B%20if%20%7D%20a%3Db%20%5C%5C%201-%5Cfrac%7Ba%7D%7Bb%7D%26%20%5Ctext%7B%20if%20%7D%20a%3Cb%20%5C%5C%20%5Cfrac%7Bb%7D%7Ba%7D-1%26%20%5Ctext%7B%20if%20%7D%20a%3Eb%20%5Cend%7Bcases%7D)  
