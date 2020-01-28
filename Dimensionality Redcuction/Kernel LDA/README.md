@@ -17,9 +17,9 @@ Funtions | Input
 --------- | ------------
 ‘cosine’ | NOTHING. LEAVE IT EMPTY
 ‘linear’ | NOTHING LEAVE IT EMPTY
-‘poly’ | gamma=<float32>, c0=<float32>,degree=<int>
-‘sigmoid’ | gamma=<float32>, c0=<float32>
-‘rbf’ | gamma=<float32>  
+‘poly’ | gamma=[float32], c0=[float32],degree=[int]
+‘sigmoid’ | gamma=[float32], c0=[float32]
+‘rbf’ | gamma=[float32]
 
 **FUNCTIONS USED IN THE CODE**:  
 1) _cosine_similarity(x,y)_: When *arg is ‘cosine’.  
@@ -61,11 +61,11 @@ For every point in class-
     Where, n=No. of points, C=No. of points in a class.  
 RETURN: The coding matrix with dimensions as (n×no. of classes)  
 
-**PROCESS**:
+**PROCESS**:  
 **_Step 1_**: 	Kernel formation  
 **_Step 2_**:  Centralised Kernel:-  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?J%3DI-%5Cfrac%7B1%7D%7Bn%7D%5Cmathbf%7B1%7D)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where I is the identity matrix and 1 is the ones matrix (n×n)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where I is the identity matrix and 1 is the ones matrix (n×n)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?K%3DJKJ)  
 **_Step 3_**:  Total scatter matrix  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?St%3DKK)  
