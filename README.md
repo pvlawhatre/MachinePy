@@ -1,5 +1,5 @@
 # MachinePy
-A python library based on NumPy, SymPy, Matplotlib, SciPy.
+A python library based on NumPy, SymPy, Matplotlib.
 
 ## Introduction
 The package has been written in for supervised, unsupervised and semi-supervised machine learning algorithms. All the major basic and advanced machine learning algorithms are written for clustering, rergression, classificaton, dimensionalty reduction problems. Aim of the project is purely educational and it was considered to be optimal while writing.
