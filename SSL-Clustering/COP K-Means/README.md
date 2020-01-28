@@ -18,7 +18,7 @@ Perform Cop K-means with the given input training data and predict ( x_test data
 **PROCESS**:  
 **Step 1**: Assign instances from dataset in must link and cannot link group  
 **Step 2**: K clusters initialisation  
-**Step 3**: For each point in the labelled dataset assigned it to the closest cluster such that it doesn't violet the constraints. If no such cluster exisit, fail.
+**Step 3**: For each point in the labelled dataset assigned it to the closest cluster such that it doesn't violet the constraints. If no such cluster exisit, fail.  
 **Step 4**: Repeat until convergence.  
 
 **RETURN**:   
