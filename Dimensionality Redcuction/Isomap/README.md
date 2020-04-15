@@ -24,7 +24,7 @@ ISOMAP-Isometric Feature Maping, for dimensionality reduction also preserving th
     * _graph(L2)_: Convert the distance matrix into a connected graph for K-neighbours.  
      RETURN: _G_, a graph matrix of size (n×n) with values are only if the point doesn’t lie in the _K_ nearest neighbours.  
      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN: A semi-definate positive Gram matrix G.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN: A positive semi-definite Gram matrix G.  
 
 **PROCESS**:
 **_Step 1_**: Geodesic distance calculation using Dijkstra algorithm. Returns ‘D’.  
