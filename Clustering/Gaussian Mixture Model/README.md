@@ -20,10 +20,13 @@ RETURN: *y*
 
 **PROCESS**:  
 **Step 1**: Initializing centroid with kmean++, covariance matrix to be identity matrix and prior 
-**Step 2**: Applying Expectation step considering the points comes from a multi-variate gaussian distribution.  
+
+**Step 2**: Applying Expectation step considering the points comes from a multi-variate gaussian distribution. 
+
 **Step 3**: Applying Maximisation step.     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Cmu_%7Bi%7D%3D%5Cfrac%7By_%7Bji%7Dx_%7Bij%7D%7D%7B%5Cmu_%7By%7D%7D)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%3D%5Cleft%20%28%20x-%5Cmu_%7Bi%7D%20%5Cright%20%29%5E%7BT%7D%5Cleft%20%28%20%28x-%5Cmu_%7Bi%7D%29%28%5Cfrac%7By_%7Bk%7D%7D%7Bn%5Cmu_%7By%7D%7D%5Cmathbf%7B1%7D_%7Bk%5Ctimes%20n%7D%29%5E%7BT%7D%20%5Cright%20%29)
+
 **Step 4**: Repeat until the convergence.   
 
 **RETURN**:   
