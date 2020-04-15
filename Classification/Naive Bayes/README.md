@@ -21,7 +21,7 @@ RETURN: *p*, a ndarray.
 **Step 2**: Calculating the likelihood parameters (mean and standard deviation)  for each class, *mu* and *sig*.  
 **Step 3**: Calculate the posterior.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](http://latex.codecogs.com/gif.latex?y%3Dp%5Ccdot%20Nor%28xtest%3B%5Cmu%2C%5Csigma%29)  
-**Step 4**: Predicting the testing value. Classification labels are given by the armax of *y* along each column.  
+**Step 4**: Predicting the testing value. Classification labels are given by the argmax of *y* along each column.  
 
 **RETURN**:  
 >*y_lbl*: Classification labels for the given test input.  
